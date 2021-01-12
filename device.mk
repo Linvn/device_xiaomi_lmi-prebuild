@@ -51,6 +51,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libldacBT_bco
 
+# Cryptfs
+PRODUCT_PACKAGES += \
+    libcryptfs_hw \
+    vendor.qti.hardware.cryptfshw@1.0
+
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
