@@ -73,7 +73,7 @@ PRODUCT_COPY_FILES += \
 
 # Display
 PRODUCT_PACKAGES += \
-    libdisplayconfig \
+    libdisplayconfig.qti \
     libqdMetaData \
     libqdMetaData.system \
     libvulkan \
