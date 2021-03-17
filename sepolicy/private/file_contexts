@@ -5,9 +5,9 @@
 /firmware(/.*)?    u:object_r:firmware_file:s0
 /persist(/.*)?    u:object_r:persist_file:s0
 
+/(product|system/product)/vendor_overlay/[0-9]+/bin/hw/android\.hardware\.power-service    u:object_r:hal_power_default_exec:s0
 /(product|system/product)/vendor_overlay/[0-9]+/bin/hw/android\.hardware\.light@2\.0-service    u:object_r:hal_light_default_exec:s0
 /system/bin/hw/lineage\.biometrics\.fingerprint\.inscreen@1.0-service\.kona    u:object_r:hal_fod_kona_exec:s0
-/system/bin/hw/lineage\.powershare@1\.0-service\.xiaomi_kona    u:object_r:hal_powershare_kona_exec:s0
 
 /sys/kernel/tracing    u:object_r:debugfs_tracing_debug:s0
 /system/lib/modules(/.*)?    u:object_r:system_file:s0
