@@ -38,7 +38,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         FodUtils.startService(context);
         DozeUtils.checkDozeService(context);
         PopupCameraUtils.startService(context);
-        FodUtils.startService(context);
         pendingResult.finish();
     }
 }
